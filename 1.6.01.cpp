@@ -17,7 +17,7 @@ int multiplication(int a, int b)
 
 double division(int a, int b) 
 {
-	return static_cast<double>(a) / b;
+	return static_cast<double>(a) / static_cast<double>(b);
 }
 
 int main(int argc, char** argv)
